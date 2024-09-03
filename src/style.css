@@ -1,1 +1,37 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+    background-color: #f8f9fa;
+  }
+  
+  h1 {
+    color: #343a40;
+  }
+  
+  #domain-list {
+    max-height: 300px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #domain-list li {
+    margin-bottom: 5px;
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
